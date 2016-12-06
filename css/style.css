@@ -5,7 +5,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: custom;
-	font-size: 120%;
+	font-size: 100%;
 	color: #1c1565;
 }
 li{
@@ -14,7 +14,7 @@ li{
 a:hover, a:visited, a{
 	text-decoration: none;
 }
-h1, h2{
+h1, h2, h3 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -262,7 +262,7 @@ li a.active{
 
 /*service area*/
 .service{
-	background: url(../img/pattern.jpg);
+	background: #1c1595;
 	background-repeat: repeat-y;
 	margin-top: 40px;
 }
@@ -280,19 +280,20 @@ li a.active{
 	display: block;
 }
 .single-service{
-	text-align:center;
+	text-align: center;
 }
 .single-service-img {
   width: 205px;
   height: 125px;
   padding-left:30px;
   position: relative;
+  text-align: center;
+
 }
 .service-img {
   width: 205px;
   height: 125px;
   background: #3a9ecb;
-  position: relative;
 }
 .single-service h3{
 	margin-top: 10px;
@@ -302,6 +303,7 @@ li a.active{
 }
 .service-img img{
 	position: absolute;
+	height: 800px;
 }
 
 
@@ -397,6 +399,7 @@ li a.active{
 /*contact section*/
 .contact-caption{
 	background: #3a9dca;
+	margin-top: 0px;
 }
 .contact-heading h2{
 	color: #fff;
@@ -819,4 +822,9 @@ responsive area
 	.footer p {
   		font-size: 10px;
   	}
+}
+
+
+#home {
+	padding-top: 10px;
 }
